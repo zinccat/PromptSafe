@@ -1,5 +1,5 @@
 # PromptSafe
-Save your precious prompt from leaking with minimum cost.
+Save your precious prompt from leaking with minimal cost.
 
 Usage:
 
