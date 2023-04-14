@@ -12,6 +12,7 @@ def save_embedding(output, path, name, embedding_model="text-embedding-ada-002")
     # save to disk
     np.save(os.path.join(path, "{}.npy".format(name)), output_embedding)
     
-path = './'
-name = 'embedding'
-save_embedding("Revise an academic paragraph for clarity and conciseness without changing its meaning.", path, name)
+if __name__ == '__main__':
+    path = './'
+    name = 'embedding'
+    save_embedding("Revise an academic paragraph for clarity and conciseness without changing its meaning.", path, name)
