@@ -1,4 +1,4 @@
-from promptsafe import filter, gpt
+from promptsafe import promptfilter, gpt
 import numpy as np
 
 def main():
